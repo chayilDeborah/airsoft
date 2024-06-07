@@ -2,7 +2,7 @@ import type { Metadata } from 'next'
 import { IBM_Plex_Sans } from 'next/font/google'
 import './globals.css'
 
-const ibm = IBM_Plex_Sans({  weight: ['400', '700'],
+const ibm = IBM_Plex_Sans({  weight: ['200', '300', '400', '500', '600', '700'],
 style: ['normal'],
 subsets: ['latin'],
 display: 'swap', });
