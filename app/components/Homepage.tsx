@@ -7,6 +7,7 @@ import kingdom from '../assets/kingdom.svg'
 import arrow from '../assets/arrow.png'
 import PortfolioComponent from './PortfolioComponent'
 import ContactComponent from './ContactComponent'
+import Footer from './Footer'
 
 const Homepage = () => {
   return (
@@ -38,6 +39,7 @@ const Homepage = () => {
     </main>
      <PortfolioComponent />
      <ContactComponent />
+     <Footer />
      </main>
   )
 }
