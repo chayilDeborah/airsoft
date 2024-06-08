@@ -1,5 +1,5 @@
 import React from 'react';
-import Carousel from '../components/Carousel';
+import AllCarousel from './AllCarousel';
 
 const images = [
   '/sup.png', 
@@ -29,12 +29,12 @@ const images = [
   '/sup.png',
 ];
 
-const HomePage: React.FC = () => {
+const PortAllArt: React.FC = () => {
   return (
     <div className="">
-      <Carousel images={images} itemsPerPage={8} />
+      <AllCarousel images={images} itemsPerPage={8} />
     </div>
   );
 };
 
-export default HomePage;
+export default PortAllArt;
