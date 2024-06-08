@@ -9,7 +9,7 @@ const Footer = () => {
                 <div className='w-[80%] flex justify-between mb-[26px] '>
                     <section className='mt-[48px] '>
                         <h2 className='text-[20px] leading-[26px] text-[#9D9393] mb-[44px] '>Contact Details</h2>
-                        <h1 className='text-[20px] leading-[26px] text-[#F5F5F5]'>Airsoftstudios01@gmail.com</h1>
+                        <h1 className='text-[20px] leading-[26px] text-[#F5F5F5]'>Sam@airsoftstudios.com </h1>
                     </section>
                     <section className='mt-[26px] '>
                         <div className='w-[82px] -rotate-[60deg] mx-auto mt-auto h-[82px] mb-[20px] rounded-[50%] border-[2px] flex justify-center border-[#FFFFFF] '>
