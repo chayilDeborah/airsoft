@@ -6,6 +6,7 @@ import superwoman from '../assets/superwoman.png'
 import kingdom from '../assets/kingdom.svg'
 import arrow from '../assets/arrow.png'
 import PortfolioComponent from './PortfolioComponent'
+import ContactComponent from './ContactComponent'
 
 const Homepage = () => {
   return (
@@ -36,6 +37,7 @@ const Homepage = () => {
        
     </main>
      <PortfolioComponent />
+     <ContactComponent />
      </main>
   )
 }

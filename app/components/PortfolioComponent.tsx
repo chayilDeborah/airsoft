@@ -29,7 +29,7 @@ const PortfolioComponent = () => {
       }
     
     return (
-        <main className='bg-[#000000] w-full border-[0.5px] border-[#9D9393] mt-[52px] mb-[60px] pb-[80px] text-white '>
+        <main className='bg-[#000000] w-full border-[0.5px] border-[#9D9393] mt-[52px] mb-[80px] pb-[80px] text-white '>
             <section className=' w-full mx-auto lg:w-full'>
                 <div className='mt-[80px]'>
                     <div className='flex justify-center '>
