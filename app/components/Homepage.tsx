@@ -5,10 +5,12 @@ import birds from '../assets/birds.png'
 import superwoman from '../assets/superwoman.png'
 import kingdom from '../assets/kingdom.svg'
 import arrow from '../assets/arrow.png'
+import PortfolioComponent from './PortfolioComponent'
 
 const Homepage = () => {
   return (
-    <main>
+    <main className=''>
+    <main  className='lg:max-w-[1450px] w-full mx-auto lg:w-full'>
         <Navbar />
         <section className='flex justify-center mt-[52px] mb-[60px] '>
             <div>
@@ -31,7 +33,10 @@ const Homepage = () => {
             </div>
             </div>
         </section>
+       
     </main>
+     <PortfolioComponent />
+     </main>
   )
 }
 

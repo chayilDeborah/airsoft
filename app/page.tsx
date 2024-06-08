@@ -4,7 +4,7 @@ import Homepage from './components/Homepage'
 export default function Home() {
   return (
     <main className='flex justify-center  '>
-    <section className='lg:max-w-[1450px] w-full lg:mx-[0px] mx-auto lg:w-full' >
+    <section className='w-full'>
      <Homepage />
     </section>
 </main>
