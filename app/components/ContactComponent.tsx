@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import video from '../assets/video.svg'
+import insta from '../assets/insta.svg'
+import Link from 'next/link'
+
 
 const ContactComponent = () => {
     return (
@@ -37,9 +40,9 @@ const ContactComponent = () => {
                         <div className='flex mt-[29px] '>
                             <h1 className='text-[20px] leading-[26px] text-[#1B1C1E] mr-[20px] '>Follow us on</h1>
                             <div className='flex w-[142px] justify-between '>
-                                <div className='w-[34px] h-[34px] bg-[#D9D9D9] rounded-[50%] '></div>
-                                <div className='w-[34px] h-[34px] bg-[#D9D9D9] rounded-[50%] '></div>
-                                <div className='w-[34px] h-[34px] bg-[#D9D9D9] rounded-[50%] '></div>
+                                <Link href='https://www.instagram.com/airsoft.studios/'>
+                            <Image src={insta} alt='instagram' className='' />
+                            </Link>
 
                             </div>
                         </div>
