@@ -1,6 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
 import whitearoow from '../assets/whitearoow.svg'
+import instagram from '../assets/instagram.svg'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -20,9 +22,9 @@ const Footer = () => {
                     <div className='mt-[48px] '>
                         <h1 className='text-[20px] leading-[26px] text-[#9D9393] mb-[20px] '>Follow us on social media </h1>
                         <div className='flex w-[207px] mx-auto justify-between '>
-                            <div className='w-[60px] h-[60px] bg-[#D9D9D9] rounded-[50%] '></div>
-                            <div className='w-[60px] h-[60px] bg-[#D9D9D9] rounded-[50%] '></div>
-                            <div className='w-[60px] h-[60px] bg-[#D9D9D9] rounded-[50%] '></div>
+                        <Link href='https://www.instagram.com/airsoft.studios/'>
+                            <Image src={instagram} alt='instagram' className='' />
+                            </Link>
                         </div>
                     </div>
                 </div>

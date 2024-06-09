@@ -4,6 +4,7 @@ import PorfolioNav from '../components/PorfolioNav'
 import PortAllArt from '../components/PortAllArt';
 import PortFantasy from '../components/PortFantasy';
 import PortLandscape from '../components/PortLandscape';
+import Footer from '../components/Footer';
 
 const Portfolio = () => {
 
@@ -45,6 +46,8 @@ const Portfolio = () => {
             </div>
           </div>
         </section>
+        <hr className='mt-[58px] text-[#F5F5F5] bg-[#F5F5F5] '/>
+        <Footer />
       </div>
     </main>
   )
