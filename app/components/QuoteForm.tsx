@@ -63,7 +63,7 @@ const QuoteForm: React.FC = () => {
           id="projectDetails"
           value={projectDetails}
           onChange={(e) => setProjectDetails(e.target.value)}
-         className="w-[613px] h-[229px] pl-[10px] border-[1px] border-[#1B1C1E] outline outline-none bg-[#F5F5F5] "
+         className="w-[613px] h-[229px] pl-[15px] border-[1px] border-[#1B1C1E] outline outline-none pt-[15px] bg-[#F5F5F5] "
           required
         ></textarea>
       </div>

@@ -1,8 +1,27 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import QuoteForm from '../components/QuoteForm'
+import LatestWorks from '../components/LatestWork'
+import Footer from '../components/Footer'
 
 const Payment = () => {
+
+    const images = [
+        '/sup.png', 
+        '/ancient.png',
+        '/yoki.png',
+        '/oldie.png',
+        '/bluey.png',
+        '/plane.png',
+        '/boat.png',
+        '/reddie.png', 
+        '/kima.PNG',
+        '/kiyu.JPG',
+        '/kita.JPG',
+        '/iron.JPG',
+        '/heist.JPG',
+    ]
+
   return (
     <main className='flex justify-center bg-[#f5f5f5]  '>
          <div className='w-full'>
@@ -12,9 +31,12 @@ const Payment = () => {
             <h1 className='text-[96px] leading-[124.8px] text-[#1B1C1E] '><i className='font-light text-[#28292c]'>Fantasy</i> Payment Gate</h1>
             <div className='mt-[52px] '>
                 <QuoteForm />
+                
             </div>
             </section>
+            <LatestWorks images={images}/>
          </section>
+         <Footer />
          </div>
     </main>
   )
