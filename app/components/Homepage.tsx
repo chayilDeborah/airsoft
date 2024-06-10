@@ -38,7 +38,7 @@ const Homepage = () => {
        
     </main>
      <PortfolioComponent />
-     {/* <ContactComponent /> */}
+     <ContactComponent />
      {/* <Footer /> */}
      </main>
   )
