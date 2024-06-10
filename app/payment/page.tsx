@@ -27,8 +27,8 @@ const Payment = () => {
          <div className='w-full'>
          <section className='lg:w-full w-[93%] lg:max-w-[1450px] mx-auto mt-[50px] '>
             <Navbar />
-            <section className='mt-[52px] w-[811px]  mx-auto '>
-            <h1 className='text-[96px] leading-[124.8px] text-[#1B1C1E] '><i className='font-light text-[#28292c]'>Fantasy</i> Payment Gate</h1>
+            <section className='mt-[52px] w- lg:w-[811px]  mx-auto '>
+            <h1 className='text-[44.3px] leading-[57.6px]  lg:text-[96px] lg:leading-[124.8px] text-[#1B1C1E] '><i className='font-light text-[#28292c]'>Fantasy</i> Payment Gate</h1>
             <div className='mt-[52px] '>
                 <QuoteForm />
                 
