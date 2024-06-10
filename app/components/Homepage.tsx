@@ -37,9 +37,9 @@ const Homepage = () => {
         </section>
        
     </main>
-     {/* <PortfolioComponent />
-     <ContactComponent />
-     <Footer /> */}
+     <PortfolioComponent />
+     {/* <ContactComponent /> */}
+     {/* <Footer /> */}
      </main>
   )
 }

@@ -12,15 +12,15 @@ import gang from '../assets/gang.png'
 const AllArt = () => {
   return (
     <main className='flex justify-center mt-[30px] overflow-hidden '>
-      <section className='grid grid-cols-4 justify-evenly lg:w-[1110px] '>
-        <Image src={sup} alt='superwoman' className='' />
-        <Image src={ancient} alt='ancient-house' className='' />
-        <Image src={yoki} alt='yoki' className='' />
-        <Image src={oldie} alt='old-man' className='' />
-        <Image src={bluey} alt='superwoman' className='mt-[52px] ' />
-        <Image src={plane} alt='superwoman' className='mt-[52px]' />
-        <Image src={boat} alt='superwoman' className='mt-[52px]' />
-        <Image src={gang} alt='superwoman' className='mt-[52px]' />
+      <section className='grid grid-cols-2 lg:grid-cols-4 justify-evenly lg:w-[1110px] w-full '>
+        <Image src={sup} alt='superwoman' className='w-[170px] h-[180px] ' />
+        <Image src={ancient} alt='ancient-house' className='w-[170px] h-[180px]  ' />
+        <Image src={yoki} alt='yoki' className='w-[170px] h-[180px] my-[20px] lg:my-[0px] ' />
+        <Image src={oldie} alt='old-man' className='w-[170px] h-[180px] my-[20px] lg:my-[0px]' />
+        <Image src={bluey} alt='superwoman' className='w-[170px] h-[180px] mt-[20px] lg:mt-[52px] ' />
+        <Image src={plane} alt='superwoman' className='w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' />
+        <Image src={boat} alt='superwoman' className='w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' />
+        <Image src={gang} alt='superwoman' className='w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' />
     
 
       </section>
