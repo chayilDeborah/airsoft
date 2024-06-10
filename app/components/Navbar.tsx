@@ -15,8 +15,8 @@ const Navbar = () => {
   };
 
   return (
-    <main className='flex justify-center mt-[36px] lg:mt-[30px] overflow-hidden '>
-      <section className='w-[80%] flex justify-between '>
+    <main className='flex justify-center mt-[20px] lg:mt-[30px] overflow-hidden '>
+      <section className='lg:w-[80%] w-full flex justify-between '>
         <Link href='/'>
           <Image src={logo} alt='logo' className='w-[89.24px] h-[30px] lg:w-[200px] lg:h-[69.8px] mt-[20px] lg:mt-[0px] ' />
         </Link>
