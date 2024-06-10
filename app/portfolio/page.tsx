@@ -47,7 +47,7 @@ const Portfolio = () => {
           </div>
         </section>
         <hr className='mt-[58px] text-[#F5F5F5] bg-[#F5F5F5] '/>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </main>
   )
