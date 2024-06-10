@@ -27,10 +27,10 @@ const Carousel: React.FC<CarouselProps> = ({ images, itemsPerPage }) => {
 
   return (
     <div {...handlers} className="carousel-container">
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-[20px] lg:gap-4">
         {selectedImages.map((src, index) => (
           <div key={index} className="image-wrapper">
-            <Image src={src} alt={`Image ${index + 1}`} width={250} height={250} className="object-cover h-[250px] rounded-[30px] " />
+            <Image src={src} alt={`Image ${index + 1}`} width={250} height={250} className="object-cover w-[180px] lg:w-[250px] h-[180px] lg:h-[250px] rounded-[30px] " />
           </div>
         ))}
       </div>
