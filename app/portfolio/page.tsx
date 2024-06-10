@@ -29,7 +29,7 @@ const Portfolio = () => {
   return (
     <main className='flex justify-center bg-[#000000] text-white '>
       <div className='w-full'>
-        <section className='w-full lg:max-w-[1450px] mx-auto mt-[50px] '>
+        <section className='lg:w-full w-[93%] lg:max-w-[1450px] mx-auto mt-[50px] '>
           <PorfolioNav />
           <div className='mt-[79px] '>
             <div className='w-[80%] mx-auto '>
@@ -47,7 +47,7 @@ const Portfolio = () => {
           </div>
         </section>
         <hr className='mt-[58px] text-[#F5F5F5] bg-[#F5F5F5] '/>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </main>
   )
