@@ -28,3 +28,8 @@ body {
   border-radius: 50%;
   cursor: pointer;
 }
+.close {
+  position: fixed;
+  z-index: 1000;
+  /* padding-right: 40px; */
+}

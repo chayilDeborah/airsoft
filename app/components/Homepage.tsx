@@ -14,7 +14,7 @@ const Homepage = () => {
     <main className=''>
     <main  className='lg:max-w-[1450px] w-full mx-auto lg:w-full'>
         <Navbar />
-        <section className='flex justify-center mt-[52px] mb-[60px] '>
+        {/* <section className='flex justify-center mt-[52px] mb-[60px] '>
             <div>
             <div>
                 <h3 className='text-[25px] leading-[32.5px] text-[#9D9393] font-medium '>Airsoft Studio</h3>
@@ -34,12 +34,12 @@ const Homepage = () => {
                 </div>
             </div>
             </div>
-        </section>
+        </section> */}
        
     </main>
-     <PortfolioComponent />
+     {/* <PortfolioComponent />
      <ContactComponent />
-     <Footer />
+     <Footer /> */}
      </main>
   )
 }
