@@ -60,10 +60,12 @@ const AboutComponent = () => {
                                     <div className='lg:flex justify-between  text-[15px] lg:text-[25px] leading-[19.5px] lg:leading-[32.5px] mt-[15px] lg:mt-[0px] '>
                                         <h3 className='  mt-auto lg:w-[212px] hidden lg:block ' >Leading Fantasy Concept Art Studio</h3>
                                         <h3 className='lg:w-[812px] '>Create your captivating dark fantasy, epic fantasy, urban fantasy, mythic fantasy, and steampunk with our custom art. From concept to final design, we turn your ideas into visual masterpiece. Reach out to us today!</h3>
+                                        <Link href='/about'>
                                         <button className='flex lg:hidden text-white w-[93px] mx-auto h-[30.4px] border-[0.89px] border-white rounded-[14.8px] pl-[19px] my-[35px] hover:bg-black hover:border-black '>
                                             <h1 className='text-[8.9px] leading-[11.6px] my-auto  '>Read More</h1>
                                             <Image src={whitearoow} alt='arrow' className='my-auto w-[10px] ml-[4px] ' />
                                         </button>
+                                        </Link>
                                     </div>
                                 </div>
                                 <TestimonialCarousel testimonials={testimonials} />
