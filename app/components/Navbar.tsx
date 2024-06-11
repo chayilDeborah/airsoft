@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <main className='flex justify-center mt-[20px] lg:mt-[30px] ' data-aos="fade-up" >
+    <main className='flex justify-center mt-[20px] lg:mt-[30px] overflow-hidden '>
       <section className='lg:w-[80%] w-full flex justify-between '>
         <Link href='/'>
           <Image src={logo} alt='logo' className='w-[89.24px] h-[30px] lg:w-[200px] lg:h-[69.8px] mt-[20px] lg:mt-[0px] ' />
@@ -50,7 +50,7 @@ const Navbar = () => {
         >
            <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] font-medium z-500 close mt-[33px] '>Menu</h1>
           <Link href="/about">
-            <h1 className=" lg:my-auto hover:text-[#150DAD] mt-[105px] ">
+            <h1 className=" lg:my-auto hover:text-[#150DAD] mt-[78px] ">
             About us
             </h1>
           </Link>
