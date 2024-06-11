@@ -15,11 +15,11 @@ const Payment = () => {
         '/plane.png',
         '/boat.png',
         '/reddie.png', 
-        '/kima.PNG',
-        '/kiyu.JPG',
-        '/kita.JPG',
-        '/iron.JPG',
-        '/heist.JPG',
+        '/kima.png',
+        '/kiyu.jpg',
+        '/kita.jpg',
+        '/iron.jpg',
+        '/heist.jpg',
     ]
 
   return (
