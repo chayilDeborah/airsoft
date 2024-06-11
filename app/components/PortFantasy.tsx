@@ -27,7 +27,7 @@ const images = [
 
 const PortFantasy: React.FC = () => {
   return (
-    <div className="">
+    <div  className="overfow-hidden" data-aos="fade-up">
       <AllCarousel images={images} itemsPerPage={8} />
     </div>
   );

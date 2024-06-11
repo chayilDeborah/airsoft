@@ -6,8 +6,8 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <main className='bg-[#000000] w-full text-white ' id='footer'>
-            <section className='w-[93%]  lg:w-full lg:max-w-[1450px] flex justify-center  mx-auto lg:w-full'>
+        <main className='bg-[#000000] w-full text-white overflow-hidden ' id='footer'>
+            <section className='w-[93%]  lg:w-full lg:max-w-[1450px] flex justify-center  mx-auto lg:w-full'  data-aos="zoom-out">
                 <div className='w-[80%] text-center lg:text-left lg:flex justify-between mb-[26px] '>
                 <div className='mt-[32px] lg:mt-[48px] lg:hidden block '>
                         <h1 className='text-[15px] lg:text-[20px] leading-[19.5px] lg:leading-[26px] text-[#9D9393] mb-[15px] lg:mb-[20px] '>Follow us on social media </h1>

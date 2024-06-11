@@ -15,7 +15,7 @@ const PortfolioNav = () => {
   };
 
   return (
-    <main className='flex justify-center mt-[20px] lg:mt-[30px] overflow-hidden '>
+    <main className='flex justify-center mt-[20px] lg:mt-[30px] overflow-hidden '  data-aos="fade-up">
       <section className='lg:w-[80%] w-full flex justify-between '>
         <Link href='/'>
           <Image src={whitelogo} alt='logo' className='w-[89.24px] h-[30px] lg:w-[200px] lg:h-[69.8px] mt-[20px] lg:mt-[0px] ' />
@@ -50,7 +50,7 @@ const PortfolioNav = () => {
         >
            <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] font-medium z-500 close mt-[33px] '>Menu</h1>
           <Link href="/">
-            <h1 className=" lg:my-auto hover:text-[#00B700] mt-[78px] ">
+            <h1 className=" lg:my-auto hover:text-[#00B700] mt-[105px] ">
             About us
             </h1>
           </Link>

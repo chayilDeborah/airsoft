@@ -43,7 +43,7 @@ const TestimonialCarousel: React.FC<CarouselProps> = ({ testimonials }) => {
   };
 
   return (
-    <main className='flex justify-center'>
+    <main className='flex justify-center overflow-hidden'>
     <div className="relative lg:max-w-[1450px] w-full mx-auto lg:mt-[90px] overflow-hidden text-black ">
       <div className="flex justify-between lg:w-[1150px] mx-auto mb-4">
         <div className='text-white ml-auto'>
@@ -61,7 +61,7 @@ const TestimonialCarousel: React.FC<CarouselProps> = ({ testimonials }) => {
           </button>
         </div>
       </div>
-      <div className="flex lg:ml-[80px] w-full gap-[15px] lg:gap-[50px] text-white  ">
+      <div className="flex lg:ml-[80px] w-full gap-[15px] lg:gap-[50px] text-white  " data-aos="fade-up" data-duration="1400">
       {testimonials.slice(currentIndex, currentIndex + itemsPerPage).map((testimonial, index) => (
           <div key={index} className="border-[0.9px] lg:border-[3px] border-white lg:h-[300px] lg:rounded-[30px] py-[17px] lg:py-[56px] px-[13px] lg:px-[46px] w-[196px] h-[196px] rounded-[15.2px] lg:w-[599px]">
             <div className="flex items-center lg:mb-4">

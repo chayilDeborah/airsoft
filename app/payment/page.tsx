@@ -23,7 +23,7 @@ const Payment = () => {
     ]
 
   return (
-    <main className='flex justify-center bg-[#f5f5f5]  '>
+    <main className='flex justify-center bg-[#f5f5f5] overflow-hidden  ' data-aos="zoom-out" >
          <div className='w-full'>
          <section className='lg:w-full w-[93%] lg:max-w-[1450px] mx-auto mt-[50px] '>
             <Navbar />

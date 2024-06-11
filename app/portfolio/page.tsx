@@ -34,7 +34,7 @@ const Portfolio = () => {
           <PorfolioNav />
           <div className='mt-[54px] lg:mt-[79px] '>
             <div className='lg:w-[80%] mx-auto flex '>
-              <div className='mx-auto mt-[33%] mr-[20px] '>
+              <div className='mx-auto lg:mt-[33%] lg:mr-[20px] hidden lg:block'>
               <NavigationMenu />
               </div>
               <div>

@@ -43,7 +43,7 @@ const images = [
 
 const PortAllArt: React.FC = () => {
   return (
-    <div className="">
+    <div className="overfow-hidden" data-aos="fade-up" data-duration="1400" >
       <AllCarousel images={images} itemsPerPage={8} />
     </div>
   );

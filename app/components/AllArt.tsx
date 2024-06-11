@@ -13,14 +13,14 @@ const AllArt = () => {
   return (
     <main className='flex justify-center mt-[30px] overflow-hidden '>
       <section className='grid grid-cols-2 lg:grid-cols-4 justify-evenly lg:w-[1110px] w-full '>
-        <Image src={sup} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] ' />
-        <Image src={ancient} alt='ancient-house' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px]  ' />
-        <Image src={yoki} alt='yoki' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] my-[20px] lg:my-[0px] ' />
-        <Image src={oldie} alt='old-man' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] my-[20px] lg:my-[0px]' />
-        <Image src={bluey} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px] ' />
-        <Image src={plane} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' />
-        <Image src={boat} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' />
-        <Image src={gang} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' />
+        <Image src={sup} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] ' data-aos="fade-up" data-duration="1400"/>
+        <Image src={ancient} alt='ancient-house' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px]  ' data-aos="fade-up" data-duration="1500"/>
+        <Image src={yoki} alt='yoki' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] my-[20px] lg:my-[0px] ' data-aos="fade-up" data-duration="1600"/>
+        <Image src={oldie} alt='old-man' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] my-[20px] lg:my-[0px]' data-aos="fade-up" data-duration="1700"/>
+        <Image src={bluey} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px] ' data-aos="fade-up" data-duration="1800"/>
+        <Image src={plane} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' data-aos="fade-up" data-duration="1900"/>
+        <Image src={boat} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' data-aos="fade-up" data-duration="2000"/>
+        <Image src={gang} alt='superwoman' className='lg:w-[250px] lg:h-[250px] w-[170px] h-[180px] mt-[20px] lg:mt-[52px]' data-aos="fade-up" data-duration="2100"/>
     
 
       </section>

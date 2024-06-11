@@ -19,7 +19,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={ibm.className}>{children}</body>
+      <body className={ibm.className}><link rel="icon" href="/logoo.svg" sizes="any" />
+        {children}</body>
     </html>
   )
 }

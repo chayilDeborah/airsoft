@@ -36,9 +36,9 @@ const LatestWork: React.FC<CarouselProps> = ({ images }) => {
   };
 
   return (
-    <div className="relative lg:w-[1052px] w-[360px] mx-auto mb-[100px]">
+    <div className="relative lg:w-[1052px] w-[360px] mx-auto mb-[100px] overflow-hidden ">
       <div className='flex justify-between '>
-        <h2 className="text-[16.4px] leading-[21.3px] lg:text-[30px] lg:leading-[39px] font-semibold mb-[40px] ">Our Latest Works</h2>
+        <h2 className="text-[16.4px] leading-[21.3px] lg:text-[30px] lg:leading-[39px] font-semibold mb-[40px] "data-aos="zoom-in">Our Latest Works</h2>
         <div>
           <button
             onClick={handlePrev}
