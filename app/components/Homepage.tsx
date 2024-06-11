@@ -10,13 +10,15 @@ import ContactComponent from './ContactComponent'
 import Footer from './Footer'
 import AboutComponent from './AboutComponent'
 import Link from 'next/link'
+import NavigationMenu from './NavigationMenu'
 
 const Homepage = () => {
   return (
     <main className=''>
     <main  className='lg:max-w-[1450px] w-[93%] mx-auto lg:w-full'>
         <Navbar />
-        <section className='flex justify-center mt-[52px] mb-[60px] '>
+        <section className='flex  mt-[52px] mb-[60px] '>
+        <NavigationMenu />
             <div>
             <div>
                 <h3 className='lg:text-[25px] lg:leading-[32.5px] text-[8.5px] leading-[11px] text-[#9D9393] font-medium '>Airsoft Studio</h3>
@@ -26,6 +28,7 @@ const Homepage = () => {
                 </div>
             </div>
             <div className='lg:flex justify-between mt-[15px] lg:mt-[27px] '>
+             
                 <Image src={superwoman} alt='superwoman' className='lg:w-[511px] lg:h-[304px] w-full mx-auto lg:mx-[0px] ' />
                 <Link href='/#footer' className='lg:mt-auto '>
                 <div className=' lg:w-[82px] lg:h-[82px] w-[25px] h-[25px] lg:mx-[19px] mt-[25px] lg:mt-auto lg:mb-[68px] -mb-[25px] rounded-[50%] border-[0.6px] lg:border-[2px] flex justify-center border-[#1B1C1E] '>

@@ -6,6 +6,7 @@ import AllArt from './AllArt'
 import FantasyArt from './FantasyArt'
 import Landscape from './Landscape'
 import Link from 'next/link'
+import NavigationMenu from './NavigationMenu'
 
 
 const PortfolioComponent = () => {
@@ -35,11 +36,12 @@ const PortfolioComponent = () => {
                 <div className='mt-[22.5px] lg:mt-[80px]'>
                     <div className='flex justify-center '>
                         <div>
+                          {/* <NavigationMenu /> */}
                             <h3 className='lg:text-[25px] text-[10px] leading-[13.92px] lg:leading-[32.5px] text-[#9D9393] font-medium w-fit '>Portfolio</h3>
                             <div className='flex'>
                                 <h1 className='text-[38.13px] lg:text-[96px] leading-[53.5px] lg:leading-[124.8px] text-[#FFFFFF] lg:w-[811px] w-[287px] '><i className='font-light text-[#FFFFFF]'>Fantasy</i>  Concept Art Studio</h1>
                                 <Link href='/portfolio'>
-                                <div className='lg:w-[82px] lg:h-[82px] w-[25px] h-[25px] mx-[19px] mt-auto lg:mb-[68px] rounded-[50%] border-[0.6px] lg:border-[2px] flex justify-center border-[#FFFFFF] hover:bg-white hover:border-white '>
+                                <div className='lg:w-[82px] lg:h-[82px] w-[25px] h-[25px] mx-[19px] mt-auto lg:mb-[68px] rounded-[50%] border-[0.6px] lg:border-[2px] flex justify-center border-[#FFFFFF] hover:bg-[#150dad] hover:border-[#150dad] '>
                                     <Image src={whitearoow} alt='birds-img' className='my-auto mx-auto lg:w-[25px] w-[7px] hover:text-black ' />
                                 </div>
                                 </Link>

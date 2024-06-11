@@ -44,10 +44,10 @@ const AboutComponent = () => {
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
 
-                    <section className='absolute lg:max-w-[1450px] mx-auto w-full'>
+                    <section className='absolute lg:max-w-[1450px] mx-auto w-full mx-auto lg:w-full top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center'>
                         <div className='mx-auto text-white '>
                             <div className='flex '>
-                                <div className='w-[95%] mx-auto lg:w-full lg:mx-[0px] '>
+                                <div className='w-[95%] mx-auto lg:w-full '>
                                 <div className='mt-[35px] lg:mt-[70px] lg:w-[80%] lg:mx-auto '>
                                     <div className='flex justify-between lg:h-[112px] mx-auto lg:mb-[104px] '>
                                         <h1 className=' text-[15px] lg:text-[30px] leading-[19.5px] lg:leading-[39px] my-auto font-medium '>Our Story</h1> 
