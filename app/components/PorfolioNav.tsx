@@ -75,7 +75,7 @@ const PortfolioNav = () => {
           <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] mt-[24px] '>Let&#39;s chat</h1>
           <h1 className='text-[20px] leading-[26px] mt-[20px] text-[#F5F5F5]'>Sam@airsoftstudios.com </h1>
         </section>
-        <Link href='/payment'>
+        <Link href='/payment' className='hidden lg:block'>
         <button className='hidden lg:block text-[20.79px] leading-[27px] text-white hover:bg-white hover:text-black rounded-[34.64px] border-[2.08px] border-white w-[180px] h-[69.8px] '>Get Quote</button>
         </Link>
       </section>
