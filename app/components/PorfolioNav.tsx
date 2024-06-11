@@ -69,13 +69,15 @@ const PortfolioNav = () => {
             Art Gallery
             </h1>
           </Link>
+          <Link href='/payment'>
           <button className=' text-[17.14px] leading-[22px] rounded-[19.5px] border-[1.32px] border-white w-[103px] h-[40px] '>Quote</button>
+          </Link>
           <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] mt-[24px] '>Let&#39;s chat</h1>
           <h1 className='text-[20px] leading-[26px] mt-[20px] text-[#F5F5F5]'>Sam@airsoftstudios.com </h1>
         </section>
-
-        <button className='hidden lg:block text-[20.79px] leading-[27px] text-[#1B1C1E] rounded-[34.64px] border-[2.08px] border-[#1B1C1E] w-[180px] h-[69.8px] '>Get Quote</button>
-
+        <Link href='/payment'>
+        <button className='hidden lg:block text-[20.79px] leading-[27px] text-white hover:bg-white hover:text-black rounded-[34.64px] border-[2.08px] border-white w-[180px] h-[69.8px] '>Get Quote</button>
+        </Link>
       </section>
     </main>
   )

@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 const Footer = () => {
     return (
-        <main className='bg-[#000000] w-full text-white '>
+        <main className='bg-[#000000] w-full text-white ' id='footer'>
             <section className='w-[93%]  lg:w-full lg:max-w-[1450px] flex justify-center  mx-auto lg:w-full'>
                 <div className='w-[80%] text-center lg:text-left lg:flex justify-between mb-[26px] '>
                 <div className='mt-[32px] lg:mt-[48px] lg:hidden block '>
@@ -22,9 +22,11 @@ const Footer = () => {
                         <h1 className='text-[15px] lg:text-[20px] leading-[19.5px] lg:leading-[26px] text-[#F5F5F5]'>Sam@airsoftstudios.com </h1>
                     </section>
                     <section className='mt-[26px] '>
+                        <Link href='/'>
                         <div className='w-[50px] lg:w-[82px] -rotate-[60deg] mx-auto mt-auto h-[50px] lg:h-[82px] mb-[20px] rounded-[50%] border-[2px] flex justify-center border-[#FFFFFF] '>
                             <Image src={whitearoow} alt='birds-img' className='my-auto mx-auto  lg:w-[25px] w-[15px] ' />
                         </div>
+                        </Link>
                         <h1 className='text-[15px] lg:text-[20px] leading-[19.5px] lg:leading-[26px] mb-[52px] lg:mb-[0px] '>© 2024 ALL RIGHTS RESERVED</h1>
                     </section>
                     <div className='mt-[48px] hidden lg:block '>

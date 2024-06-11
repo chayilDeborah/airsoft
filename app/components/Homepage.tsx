@@ -9,6 +9,7 @@ import PortfolioComponent from './PortfolioComponent'
 import ContactComponent from './ContactComponent'
 import Footer from './Footer'
 import AboutComponent from './AboutComponent'
+import Link from 'next/link'
 
 const Homepage = () => {
   return (
@@ -26,9 +27,11 @@ const Homepage = () => {
             </div>
             <div className='lg:flex justify-between mt-[15px] lg:mt-[27px] '>
                 <Image src={superwoman} alt='superwoman' className='lg:w-[511px] lg:h-[304px] w-full mx-auto lg:mx-[0px] ' />
+                <Link href='/#footer' className='lg:mt-auto '>
                 <div className=' lg:w-[82px] lg:h-[82px] w-[25px] h-[25px] lg:mx-[19px] mt-[25px] lg:mt-auto lg:mb-[68px] -mb-[25px] rounded-[50%] border-[0.6px] lg:border-[2px] flex justify-center border-[#1B1C1E] '>
                   <Image src={arrow} alt='arrow' className='my-auto mx-auto lg:w-[25px] w-[7px] ' />
                 </div>
+                </Link>
                 <div className='lg:w-[525px] lg:mt-[38px] flex lg:block '>
                   <i className='lg:text-[25px] lg:leading-[32.5px] text-[10px] leading-[13px] text-[#1B1C1E] font-light lg:w-[519px] w-[180px] lg:mt-[0px] mt-[30px]  '>&#34;Art is how we decorate space; Music is how we decorate time.&#34; - Jean-Michel Basquiat</i>
                   <Image src={kingdom} alt='kingdom' className='lg:w-[511px] lg:h-[200px] w-[200px] h-[69px] ' />
