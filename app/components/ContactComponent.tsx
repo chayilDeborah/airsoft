@@ -3,14 +3,18 @@ import React from 'react'
 import video from '../assets/video.svg'
 import insta from '../assets/insta.svg'
 import Link from 'next/link'
+import unlockmob from '../assets/unlockmob.png'
+import unlockdesk from '../assets/unlockdesk.png'
 
 
 const ContactComponent = () => {
     return (
-        <main className='flex justify-center mt-[2px] mb-0px] pb-[50px] lg:pb-[150px] '>
+        <main className='flex justify-center mt-[2px] mb-0px] pb-[50px] lg:pb-[150px] ' id='contact' >
             <section className='lg:max-w-[1450px] w-[93%] lg:w-full mx-auto '>
-                <h1 className='mx-auto lg:text-[70px] text-[21.78px] leading-[28.3px] lg:leading-[91px] text-[#1B1C1E] lg:w-[1125px]  '><i className='font-light'>Unlock</i> your design
-                    <p>potential with our studio&#39;s expertise</p></h1>
+                <Image src={unlockdesk} alt='unlock' className='hidden lg:block w-[76%] mx-auto ' />
+                <Image src={unlockmob} alt='unlock' className='lg:hidden block w-[94%] mx-auto ' />
+                {/* <h1 className='mx-auto lg:text-[70px] text-[21.78px] leading-[28.3px] lg:leading-[91px] text-[#1B1C1E] lg:w-[1125px]  '><i className='font-light'>Unlock</i> your design
+                    <p>potential with our studio&#39;s expertise</p></h1> */}
                 <div className='lg:flex justify-between mt-[30px] lg:mt-[64px] w-[95%] lg:w-[80%] mx-auto '>
                     <section>
                         <div className='bg-[#000000] text-[#FFFFFF] rounded-[22.3px] lg:rounded-[30px] lg:w-[511px] pl-[29px] lg:pl-[0px] py-[32px] lg:py-[70px] '>

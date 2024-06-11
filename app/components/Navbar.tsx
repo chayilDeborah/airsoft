@@ -49,32 +49,32 @@ const Navbar = () => {
             } lg:hidden justify-between text-[22px] leading-[150%] lg:w-[539px] my-auto `}
         >
            <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] font-medium z-500 close mt-[33px] '>Menu</h1>
-          <Link href="/">
-            <h1 className=" lg:my-auto hover:text-[#00B700] mt-[78px] ">
+          <Link href="/about">
+            <h1 className=" lg:my-auto hover:text-[#150DAD] mt-[78px] ">
             About us
             </h1>
           </Link>
-          <Link href="/#about">
-            <h1 className="my-[20px] lg:my-auto hover:text-[#00B700] ">
+          <Link href="/portfolio">
+            <h1 className="my-[20px] lg:my-auto hover:text-[#150DAD] ">
             Projects
             </h1>
           </Link>
-          <Link href="/#tokenomics">
-            <h1 className="lg:my-auto hover:text-[#00B700]">
+          <Link href="/#contact">
+            <h1 className="lg:my-auto hover:text-[#150DAD]">
             Contact us
             </h1>
           </Link>
-          <Link href="/#how">
-            <h1 className="my-[20px] lg:my-auto hover:text-[#00B700]">
+          <Link href="/portfolio">
+            <h1 className="my-[20px] lg:my-auto hover:text-[#150DAD]">
             Art Gallery
             </h1>
           </Link>
-          <button className=' text-[17.14px] leading-[22px] rounded-[19.5px] border-[1.32px] border-white w-[103px] h-[40px] '>Quote</button>
+          <button className=' text-[17.14px] leading-[22px] rounded-[19.5px] border-[1.32px] border-white w-[103px] h-[40px] hover:bg-white hover:text-black  '>Quote</button>
           <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] mt-[24px] '>Let&#39;s chat</h1>
-          <h1 className='text-[20px] leading-[26px] mt-[20px] text-[#F5F5F5]'>Sam@airsoftstudios.com </h1>
+          <h1 className='text-[20px] leading-[26px] mt-[20px] text-[#F5F5F5] hover:text-[#150DAD]'>Sam@airsoftstudios.com </h1>
         </section>
 
-        <button className='hidden lg:block text-[20.79px] leading-[27px] text-[#1B1C1E] rounded-[34.64px] border-[2.08px] border-[#1B1C1E] w-[180px] h-[69.8px] '>Get Quote</button>
+        <button className='hidden lg:block text-[20.79px] leading-[27px] text-[#1B1C1E] rounded-[34.64px] border-[2.08px] border-[#1B1C1E] w-[180px] h-[69.8px] hover:bg-black hover:text-white '>Get Quote</button>
 
       </section>
     </main>
