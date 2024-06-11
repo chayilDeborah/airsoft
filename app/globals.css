@@ -33,3 +33,14 @@ body {
   z-index: 1000;
   /* padding-right: 40px; */
 }
+.image {
+  /* background-color: #22A9D8; */
+  background-image: url(https://res.cloudinary.com/dmye53wps/video/upload/v1718031611/samura_ukf4hb.mp4);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  color: #fff;
+}
+.content {
+  display: grid;
+}

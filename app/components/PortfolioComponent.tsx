@@ -30,7 +30,7 @@ const PortfolioComponent = () => {
       }
     
     return (
-        <main className='bg-[#000000] w-full border-[0.5px] border-[#9D9393] mt-[52px] mb-[40px] lg:mb-[80px] pb-[80px] text-white '>
+        <main className='bg-[#000000] w-full border-[0.1px] border-black mb-[40px] lg:mb-[80px] pb-[80px] text-white '>
             <section className='  w-[93%] lg:w-full mx-auto '>
                 <div className='mt-[22.5px] lg:mt-[80px]'>
                     <div className='flex justify-center '>
@@ -39,8 +39,8 @@ const PortfolioComponent = () => {
                             <div className='flex'>
                                 <h1 className='text-[38.13px] lg:text-[96px] leading-[53.5px] lg:leading-[124.8px] text-[#FFFFFF] lg:w-[811px] w-[287px] '><i className='font-light text-[#FFFFFF]'>Fantasy</i>  Concept Art Studio</h1>
                                 <Link href='/portfolio'>
-                                <div className='lg:w-[82px] lg:h-[82px] w-[25px] h-[25px] mx-[19px] mt-auto lg:mb-[68px] rounded-[50%] border-[0.6px] lg:border-[2px] flex justify-center border-[#FFFFFF] '>
-                                    <Image src={whitearoow} alt='birds-img' className='my-auto mx-auto lg:w-[25px] w-[7px]' />
+                                <div className='lg:w-[82px] lg:h-[82px] w-[25px] h-[25px] mx-[19px] mt-auto lg:mb-[68px] rounded-[50%] border-[0.6px] lg:border-[2px] flex justify-center border-[#FFFFFF] hover:bg-white hover:border-white '>
+                                    <Image src={whitearoow} alt='birds-img' className='my-auto mx-auto lg:w-[25px] w-[7px] hover:text-black ' />
                                 </div>
                                 </Link>
                             </div>

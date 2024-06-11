@@ -8,6 +8,7 @@ import arrow from '../assets/arrow.png'
 import PortfolioComponent from './PortfolioComponent'
 import ContactComponent from './ContactComponent'
 import Footer from './Footer'
+import AboutComponent from './AboutComponent'
 
 const Homepage = () => {
   return (
@@ -37,6 +38,7 @@ const Homepage = () => {
         </section>
        
     </main>
+    <AboutComponent />
      <PortfolioComponent />
      <ContactComponent />
      <Footer />
