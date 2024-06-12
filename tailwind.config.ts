@@ -8,10 +8,19 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      keyframes: {
+        'background-flow': {
+          '0%': { backgroundPosition: '0 100%' },
+          '100%': { backgroundPosition: '0 0' },
+        },
+        fadeInOut: {
+          '0%, 100%': { opacity: '0' },
+          '50%': { opacity: '1' },
+        },
+      },
+      animation: {
+        'background-flow': 'background-flow 1s forwards',
+        fadeInOut: 'fadeInOut 6s infinite',
       },
     },
   },

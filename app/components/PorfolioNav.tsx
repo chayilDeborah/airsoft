@@ -48,9 +48,9 @@ const PortfolioNav = () => {
             : "hidden"
             } lg:hidden justify-between text-[22px] leading-[150%] lg:w-[539px] my-auto `}
         >
-           <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] font-medium z-500 close mt-[33px] '>Menu</h1>
+           {/* <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] font-medium z-500 close mt-[33px] '>Menu</h1> */}
           <Link href="/">
-            <h1 className=" lg:my-auto hover:text-[#00B700] mt-[105px] ">
+            <h1 className=" lg:my-auto hover:text-[#00B700] mt-[25px] ">
             About us
             </h1>
           </Link>
