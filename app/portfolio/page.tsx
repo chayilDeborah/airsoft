@@ -53,7 +53,7 @@ const Portfolio = () => {
             </div>
           </div>
         </section>
-        <div className='mt-[58px] text-[#F5F5F5] bg-[#9D9393] h-[2px] '></div>
+        <div className='mt-[58px] text-[#F5F5F5] bg-[#9D9393] h-[1px] '></div>
         <Footer />
       </div>
     </main>
