@@ -8,24 +8,18 @@ const About = () => {
 
     const [count, setCount] = useState(0);
 
-    useEffect(() => {
-      let isMounted = true;
-  
-      const incrementCount = (currentCount: number) => {
-        if (currentCount < 45 && isMounted) {
-          setTimeout(() => {
-            setCount(currentCount + 1);
-            incrementCount(currentCount + 1);
-          }, 100); // Adjust the timeout duration as needed
-        }
-      };
-  
-      incrementCount(0);
-  
-      return () => {
-        isMounted = false;
-      };
-    }, []);
+  useEffect(() => {
+    let timeout: NodeJS.Timeout;
+
+    if (count < 45) {
+      timeout = setTimeout(() => {
+        setCount((prevCount) => prevCount + 1);
+      }, 100); // Adjust the timeout duration as needed
+    }
+
+    return () => clearTimeout(timeout);
+  }, [count]);
+
   
 
     return (
@@ -43,7 +37,7 @@ const About = () => {
                                 </video>
                             </div>
                         </div>
-                        <div className='mt-[20px] lg:mt-[47px] md:flex justify-between w-full lg:w-[80%] mx-auto lg:ml-[20.1%] '>
+                        <div className='mt-[20px] lg:mt-[47px] md:flex justify-between w-full lg:w-[84%] mx-auto lg:ml-[18.8%] '>
                             <h1 className='text-[15px] leading-[19.5px] lg:text-[30px] lg:leading-[39px] text-[#1B1C1E] font-medium  ' data-aos="fade-up" data-duration="1400">Our Story</h1>
                             <div className='text-[#1B1C1E] text-[15px] leading-[19.5px] mt-[15px] md:mt-[0px] lg:text-[23.97px] lg:leading-[31.1px] lg:w-[695px] lg:mr-[70px] ' data-aos="fade-up" data-duration="1500">
                                 <p>Welcome to AirSoftWorld, your premier destination for custom fantasy art. We specialize in crafting innovative and captivating designs that breathe life into your fantasy worlds. Whether it’s dark fantasy, epic fantasy, urban fantasy, mythic fantasy, or steampunk, our exceptional artwork transforms your vision into extraordinary masterpieces. From games and novels to comics and animations, our work is recognized by top-tier companies.</p>
@@ -51,22 +45,22 @@ const About = () => {
                                 <p>Reach out to us today and embark on a journey from concept to stunning final design.</p>
                             </div>
                         </div>
-                        <div className='mt-[30px] mb-[100px] md:my-[100px] mx-auto grid grid-cols-2 md:grid-cols-3 lg:w-[924px] text-[#1B1C1E]'>
+                        <div className='mt-[30px] mb-[100px] md:my-[100px] mx-auto grid grid-cols-2 md:grid-cols-3 lg:w-[924px] gap-[20px] lg:gap-[0px] text-[#1B1C1E]'>
                             <section className='w-[165px] lg:w-[288px] mx-auto lg:mx-[0px] rounded-[18.75px] lg:rounded-[30px] border-[1.88px] md:border-[3px] border-[#D9D9D9] pt-[24px] lg:pt-[39px] pl-[21px] lg:pl-[35px] ' data-aos="fade-up" data-duration="1600">
-                                <h1 className='text-[15.63px] leading-[20.3px] lg:text-[25px] lg:leading-[32.5px] '>Projects </h1>
-                                    <div className="relative h-[104px] overflow-hidden">
+                                <h1 className='text-[15.63px] leading-[20.3px] lg:text-[25px] lg:leading-[32.5px]  mb-[18.8px] lg:mb-[30px]  '>Projects </h1>
+                                    <div className="relative lg:h-[84px] h-[72px] overflow-hidden">
                                         <div
                                             className="absolute transition-transform duration-300 ease-out"
-                                            style={{ transform: `translateY(-${count * 104}px)` }}
+                                            // style={{ transform: `translateY(-${count * 104}px)` }}
                                         >
-                                            {Array.from({ length: 90 }, (_, i) => (
+                                            {/* {Array.from({ length: 90 }, (_, i) => ( */}
                                                 <h1
-                                                    key={i}
-                                                    className="text-[50px] leading-[65px] lg:text-[80px] lg:leading-[104px] font-medium mt-[18.8px] lg:mt-[30px] mb-[24px] lg:mb-[38px]"
+                                                    key={count}
+                                                    className="text-[50px] leading-[65px] lg:text-[80px] lg:leading-[104px] font-medium"
                                                 >
-                                                    {i}
+                                                    {count}
                                                 </h1>
-                                            ))}
+                                            {/* ))} */}
                                         </div>
                                     </div>
                             </section>

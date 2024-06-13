@@ -17,26 +17,26 @@ const QuoteForm: React.FC = () => {
   return (
     <form onSubmit={handleSubmit} className="text-black ">
       <div className="mb-4">
-        <p className="mb-[16px] lg:mb-[30px] lg:text-[30px] text-[17.37px] leading-[22.58px] lg:leading-[39px] ">I&#39;m interested in...</p>
+        <p className="mb-[16px] lg:mb-[30px] text-[#1B1C1EB2] hover:text-black lg:text-[30px] text-[17.37px] leading-[22.58px] lg:leading-[39px] ">I&#39;m interested in...</p>
         <div className="flex space-x-[20px] ">
           <button
             type="button"
-            className={`w-[166px] h-[41px] lg:w-[287px] lg:h-[70px] rounded-[20px] lg:rounded-[34.64px] border-[1.2px] lg:border-[2.1px] border-[#1B1C1E] text-[12px] leading-[15.6px] lg:text-[20px] lg:leading-[27px] text-[#1B1C1E] ${interest === 'Fantasy Character Art' ? 'bg-gray-200' : 'bg-[#F5F5F5'}`}
+            className={`w-[166px] h-[41px] lg:w-[287px] lg:h-[70px] rounded-[20px] lg:rounded-[34.64px] border-[1.2px] lg:border-[2.1px] border-[#1B1C1E] text-[12px] leading-[15.6px] lg:text-[20px] lg:leading-[27px] text-[#1B1C1E] ${interest === 'Fantasy Character Art' ? 'bg-black text-white' : 'bg-[#F5F5F5'}`}
             onClick={() => setInterest('Fantasy Character Art')}
           >
             Fantasy Character Art
           </button>
           <button
             type="button"
-            className={`w-[166px] h-[41px] lg:w-[287px] lg:h-[70px] rounded-[20px] lg:rounded-[34.64px] border-[1.2px] lg:border-[2.1px] border-[#1B1C1E] text-[12px] leading-[15.6px] lg:text-[20px] lg:leading-[27px] text-[#1B1C1E] ${interest === 'Fantasy Landscape Art' ? 'bg-gray-200' : 'bg-[#F5F5F5] '}`}
+            className={`w-[166px] h-[41px] lg:w-[287px] lg:h-[70px] rounded-[20px] lg:rounded-[34.64px] border-[1.2px] lg:border-[2.1px] border-[#1B1C1E] text-[12px] leading-[15.6px] lg:text-[20px] lg:leading-[27px] text-[#1B1C1E] ${interest === 'Fantasy Landscape Art' ? 'bg-black text-white' : 'bg-[#F5F5F5] '}`}
             onClick={() => setInterest('Fantasy Landscape Art')}
           >
             Fantasy Landscape Art
           </button>
         </div>
       </div>
-      <div className="mt-[30px] lg:mt-[52px] ">
-        <label htmlFor="name" className="block lg:text-[30px] text-[17.1px] leading-[22.2px] lg:leading-[39px]">Name</label>
+      <div className="mt-[30px] lg:mt-[52px] hover:text-black ">
+        <label htmlFor="name" className="block text-[#1B1C1EB2] hover:text-black lg:text-[30px] text-[17.1px] leading-[22.2px] lg:leading-[39px]">Name</label>
         <input
           type="text"
           id="name"
@@ -46,8 +46,8 @@ const QuoteForm: React.FC = () => {
           required
         />
       </div>
-      <div className="my-[45px] lg:my-[80px] ">
-        <label htmlFor="email" className="block lg:text-[30px] text-[17.1px] leading-[22.2px]  lg:leading-[39px]">Email</label>
+      <div className="my-[45px] lg:my-[80px] hover:text-black ">
+        <label htmlFor="email" className="block text-[#1B1C1EB2] hover:text-black lg:text-[30px] text-[17.1px] leading-[22.2px]  lg:leading-[39px]">Email</label>
         <input
           type="email"
           id="email"
@@ -57,8 +57,8 @@ const QuoteForm: React.FC = () => {
           required
         />
       </div>
-      <div className="">
-        <label htmlFor="projectDetails" className="block lg:text-[30px] text-[17.1px] leading-[22.2px]  lg:leading-[39px] mb-[30px]">Project Details</label>
+      <div className="hover:text-black">
+        <label htmlFor="projectDetails" className="block text-[#1B1C1EB2] hover:text-black lg:text-[30px] text-[17.1px] leading-[22.2px]  lg:leading-[39px] mb-[30px]">Project Details</label>
         <textarea
           id="projectDetails"
           value={projectDetails}

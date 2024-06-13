@@ -21,7 +21,7 @@ const TestimonialCarousel: React.FC<CarouselProps> = ({ testimonials }) => {
       if (window.innerWidth < 768) {
         setItemsPerPage(2);
       } else {
-        setItemsPerPage(1.8);
+        setItemsPerPage(2);
       }
     };
 

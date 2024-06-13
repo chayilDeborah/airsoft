@@ -34,26 +34,26 @@ const Portfolio = () => {
           <PorfolioNav />
           <div className='mt-[54px] lg:mt-[79px] '>
             <div className='lg:w-[80%] mx-auto flex '>
-              <div className='mx-auto lg:mt-[33%] lg:mr-[20px] hidden lg:block'>
-              <NavigationMenu />
+              <div className='mx-auto lg:mt-[33%] lg:mr-[20px] lg:-ml-[100px] hidden lg:block'>
+                <NavigationMenu />
               </div>
               <div>
-              <div className='lg:w-[887px] mb-[45px] '>
-                <h3 className='text-[11px] leading-[14px] lg:text-[25px] lg:leading-[32.5px] text-[#9D9393] font-medium '>Portfolio</h3>
-                <h1 className='text-[38.1px] leading-[53px] lg:text-[96px] lg:leading-[124.8px] text-[#FFFFFF]  '><i className='font-light text-[#FFFFFF]'>Fantasy</i>  Concept Art Projects</h1>
-              </div>
-              <div className='flex justify-evenly lg:w-[735px] lg:mb-[52px] my-[20px] lg:mt-[45px] text-white'>
-                <div className='w-[53.3px] lg:w-[110px] h-[36.1px] lg:h-[70px] text-[11px] lg:text-[20.8px] leading-[14px] lg:leading-[27px] rounded-[18px] lg:rounded-[34.6px] border-[1px] lg:border-[2.08px] border-white flex justify-center items-center ' onClick={() => handleTabClick('all')} style={{ backgroundColor: activeTab === 'all' ? '#F9F9F9' : '', color: activeTab === 'all' ? 'black' : '' }}>All</div>
-                <div className='w-[142px] lg:w-[287.7px] h-[36px] lg:h-[70px] text-[11px] lg:text-[20.8px] leading-[14px] lg:leading-[27px] rounded-[18px] lg:rounded-[34.6px] border-[1px] lg:border-[2.08px] border-white flex justify-center items-center mx-[5px] lg:mx-[0px]  ' onClick={() => handleTabClick('fantasy')} style={{ backgroundColor: activeTab === 'fantasy' ? '#F9F9F9' : '', color: activeTab === 'fantasy' ? 'black' : '' }}>Fantasy Character Art</div>
-                <div className='w-[146px] lg:w-[296.7px] h-[36px] lg:h-[70px] text-[11px] lg:text-[20.8px] leading-[14px] lg:leading-[27px] rounded-[18px] lg:rounded-[34.6px] border-[1px] lg:border-[2.08px] border-white flex justify-center items-center  ' onClick={() => handleTabClick('landscape')} style={{ backgroundColor: activeTab === 'landscape' ? '#F9F9F9' : '', color: activeTab === 'landscape' ? 'black' : '' }}>Fantasy Landscape Art</div>
-              </div>
-              {renderTabContent()}
+                <div className='lg:w-[887px] mb-[45px] '>
+                  <h3 className='text-[11px] leading-[14px] lg:text-[19.17px] lg:leading-[24.9px] text-[#9D9393] font-medium '>Portfolio</h3>
+                  <h1 className='text-[38.1px] leading-[53px] lg:text-[78.6px] lg:leading-[102.1px] text-[#FFFFFF]  '><i className='font-light text-[#FFFFFF]'>Fantasy</i>  Concept Art Projects</h1>
+                </div>
+                <div className='flex justify-evenly lg:w-[735px] lg:mb-[52px] my-[20px] lg:mt-[85px] text-white'>
+                  <div className='w-[53.3px] lg:w-[106px] h-[36.1px] lg:h-[67px] text-[11px] lg:text-[20.8px] leading-[14px] lg:leading-[27px] rounded-[18px] lg:rounded-[33.2px] border-[1px] lg:border-[2.08px] border-white flex justify-center items-center ' onClick={() => handleTabClick('all')} style={{ backgroundColor: activeTab === 'all' ? '#F9F9F9' : '', color: activeTab === 'all' ? 'black' : '' }}>All</div>
+                  <div className='w-[142px] lg:w-[276px] h-[36px] lg:h-[67px] text-[11px] lg:text-[20.8px] leading-[14px] lg:leading-[27px] rounded-[18px] lg:rounded-[33.2px] border-[1px] lg:border-[2.08px] border-white flex justify-center items-center mx-[5px] lg:mx-[0px]  ' onClick={() => handleTabClick('fantasy')} style={{ backgroundColor: activeTab === 'fantasy' ? '#F9F9F9' : '', color: activeTab === 'fantasy' ? 'black' : '' }}>Fantasy Character Art</div>
+                  <div className='w-[146px] lg:w-[285px] h-[36px] lg:h-[67px] text-[11px] lg:text-[20.8px] leading-[14px] lg:leading-[27px] rounded-[18px] lg:rounded-[33.2px] border-[1px] lg:border-[2.08px] border-white flex justify-center items-center  ' onClick={() => handleTabClick('landscape')} style={{ backgroundColor: activeTab === 'landscape' ? '#F9F9F9' : '', color: activeTab === 'landscape' ? 'black' : '' }}>Fantasy Landscape Art</div>
+                </div>
+                {renderTabContent()}
               </div>
 
             </div>
           </div>
         </section>
-        <hr className='mt-[58px] text-[#F5F5F5] bg-[#F5F5F5] ' />
+        <div className='mt-[58px] text-[#F5F5F5] bg-[#9D9393] h-[2px] '></div>
         <Footer />
       </div>
     </main>

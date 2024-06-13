@@ -18,7 +18,7 @@ const PortfolioNav = () => {
     <main className='flex justify-center mt-[20px] lg:mt-[30px] overflow-hidden '>
       <section className='lg:w-[80%] w-full flex justify-between '>
         <Link href='/'>
-          <Image src={whitelogo} alt='logo' className='w-[89.24px] h-[30px] lg:w-[200px] lg:h-[69.8px] mt-[20px] lg:mt-[0px] ' />
+          <Image src={whitelogo} alt='logo' className='w-[89.24px] h-[30px] lg:w-[156px] lg:h-[59.8px] mt-[20px] lg:mt-[0px] ' />
         </Link>
         <div className="lg:hidden w-[6%] ">
           <button
@@ -76,7 +76,24 @@ const PortfolioNav = () => {
           <h1 className='text-[20px] leading-[26px] mt-[20px] text-[#F5F5F5]'>Sam@airsoftstudios.com </h1>
         </section>
         <Link href='/payment' className='hidden lg:block'>
-        <button className='hidden lg:block text-[20.79px] leading-[27px] text-white hover:bg-white hover:text-black rounded-[34.64px] border-[2.08px] border-white w-[180px] h-[69.8px] '>Get Quote</button>
+        <button className='hidden lg:block text-[19.9px] leading-[25.88px] text-white rounded-[26px] border-[1.56px] border-white w-[155.5px] h-[58.2px]  overflow-hidden relative group '>
+        <span className='relative z-10 hover:text-black'>Get Quote</span>
+        <div className='absolute inset-0 bg- transition-all duration-500 ease-in-out group-hover:animate-background-flow hover:text-black '></div>
+      <style jsx>{`
+        button {
+          background: linear-gradient(0deg, #ffffff, #ffffff),
+                      linear-gradient(black, black);
+          background-size: 100% 0, 100% 100%;
+          background-repeat: no-repeat;
+          transition: background-size 0.5s;
+        }
+
+        button:hover {
+          background-size: 100% 100%, 100% 100%;
+          color: black
+        }
+      `}</style>
+          </button>
         </Link>
       </section>
     </main>

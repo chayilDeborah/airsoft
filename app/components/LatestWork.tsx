@@ -42,7 +42,7 @@ const LatestWork: React.FC<CarouselProps> = ({ images }) => {
         <div>
           <button
             onClick={handlePrev}
-            className="text-[22px] lg:text-[30px] mr-[5px] "
+            className="text-[22px] text-[#9D9393] lg:text-[30px] mr-[5px] "
           >
             ←
           </button>

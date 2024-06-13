@@ -18,10 +18,10 @@ const Footer = () => {
                         </div>
                     </div>
                     <section className='mt-[35px] lg:mt-[48px] '>
-                        <h2 className='text-[15px] lg:text-[20px] leading-[19.5px] lg:leading-[26px] text-[#9D9393] mb-[44px] '>Contact Details</h2>
+                        <h2 className='text-[15px] lg:text-[20px] leading-[19.5px] lg:leading-[26px] text-[#9D9393] mb-[25px] lg:mb-[42px] '>Contact Details</h2>
                         <h1 className='text-[15px] lg:text-[20px] leading-[19.5px] lg:leading-[26px] text-[#F5F5F5]'><a href="mailto:Sam@airsoftstudios.com">Sam@airsoftstudios.com</a> </h1>
                     </section>
-                    <section className='mt-[26px] '>
+                    <section className='mt-[35px] lg:mt-[26px] '>
                         <Link href='/'>
                         <div className='w-[50px] lg:w-[67px] -rotate-[60deg] mx-auto mt-auto h-[50px] lg:h-[67px] mb-[20px] rounded-[50%] border-[2px] flex justify-center border-[#FFFFFF] '>
                             <Image src={whitearoow} alt='birds-img' className='my-auto mx-auto  lg:w-[20px] w-[15px] ' />
