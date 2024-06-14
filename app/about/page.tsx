@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 import NavigationMenu from '../components/NavigationMenu'
+import LatestWork from '../components/LatestWork';
 
 const About = () => {
 
@@ -14,13 +15,27 @@ const About = () => {
     if (count < 45) {
       timeout = setTimeout(() => {
         setCount((prevCount) => prevCount + 1);
-      }, 100); // Adjust the timeout duration as needed
+      }, 80); // Adjust the timeout duration as needed
     }
 
     return () => clearTimeout(timeout);
   }, [count]);
 
-  
+  const images = [
+    '/sup.png', 
+    '/ancient.png',
+    '/yoki.png',
+    '/oldie.png',
+    '/bluey.png',
+    '/plane.png',
+    '/boat.png',
+    '/reddie.png', 
+    '/kima.png',
+    '/kiyu.jpg',
+    '/kita.jpg',
+    '/iron.jpg',
+    '/heist.jpg',
+]
 
     return (
         <main className='flex justify-center bg-[#f5f5f5] overflow-hidden  '>
@@ -74,6 +89,7 @@ const About = () => {
                             </section>
                         </div>
                     </section>
+                    <LatestWork images={images}/>
                 </section>
                 <Footer />
             </div>

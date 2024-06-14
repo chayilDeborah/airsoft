@@ -29,6 +29,7 @@ const testimonials = [
   ];
   
 const AboutComponent = () => {
+    
     return (
         <main className='w-full relative mx-auto mb-[0px] text-black ' data-aos="fade-left">
             <section className=' w-full relative lg:mt-[0px] lg:h-auto'>
@@ -55,7 +56,10 @@ const AboutComponent = () => {
                                     </div>
                                     <div className='lg:flex justify-between  text-[15px] lg:text-[21.9px] leading-[19.5px] lg:leading-[31.5px] mt-[15px] lg:mt-[0px] '>
                                         <h3 className='  mt-auto lg:w-[203px] hidden lg:block lg:text-[21px] ' data-aos="fade-up" data-duration="1500" >Leading Fantasy Concept Art Studio</h3>
-                                        <h3 className='lg:w-[778px] lg:ml-[70px] '  data-aos="fade-up" data-duration="1600">Create your captivating dark fantasy, epic fantasy, urban fantasy, mythic fantasy, and steampunk with our custom art. From concept to final design, we turn your ideas into visual masterpiece. Reach out to us today!</h3>
+                                        <div className='lg:w-[778px] lg:ml-[70px] '  data-aos="fade-up" data-duration="1600">
+                                        <h3>Bring your imagination to life with AirSoft Studios. </h3>
+<h3>From dark fantasy realms, to steampunk worlds, we craft your visions into stunning visual masterpieces. Whether it’s epic adventures, urban magic, or mythic legends, we create custom art that captures your stories. </h3>
+Contact us today to start your journey.</div>
                                         <Link href='/about'>
                                         <button data-aos="zoom-in" className='flex lg:hidden text-white w-[93px] mx-auto h-[30.4px] border-[0.89px] border-white rounded-[14.8px] pl-[19px] my-[35px] hover:bg-black hover:border-black '>
                                             <h1 className='text-[8.9px] leading-[11.6px] my-auto  ' >Read More</h1>

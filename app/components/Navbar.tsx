@@ -5,6 +5,7 @@ import logo from '../assets/logo.png'
 import Link from 'next/link';
 import menuh from '../assets/menuh.svg'
 import close from '../assets/close.svg'
+import instagram from '../assets/instagram.svg'
 
 const Navbar = () => {
 
@@ -64,19 +65,39 @@ const Navbar = () => {
             </h1>
           </Link>
           <Link href="/portfolio">
-            <h1 className="my-[20px] lg:my-auto hover:text-[#150DAD]">
+            <h1 className="mt-[20px] lg:my-auto hover:text-[#150DAD]">
             Art Gallery
             </h1>
           </Link>
-          <Link href='/payment'>
-          <button className=' text-[17.14px] leading-[22px] rounded-[19.5px] border-[1.32px] border-white w-[103px] h-[40px] hover:bg-white hover:text-black  '>Quote</button>
-          </Link>
+          <Link href='https://calendly.com/creativewizard03'>
+                                <button className='mt-[17.6px] border-[1.84px] border-[#F5F5F5] rounded-[19.5px] w-[103px] h-[40px] text-[17px] leading-[22px]   overflow-hidden relative group'>
+
+                                    <span className='relative z-10 hover:text-black'>Book a Call</span>
+                                    <div className='absolute inset-0 bg- transition-all duration-500 ease-in-out group-hover:animate-background-flow hover:text-black '></div>
+                                    <style jsx>{`
+        button {
+          background: linear-gradient(0deg, #ffffff, #ffffff),
+                      linear-gradient(black, black);
+          background-size: 100% 0, 100% 100%;
+          background-repeat: no-repeat;
+          transition: background-size 0.5s;
+        }
+
+        button:hover {
+          background-size: 100% 100%, 100% 100%;
+          color: black
+        }
+      `}</style>
+                                </button>
+</Link>
           <h1 className='text-[#A4A4A4] text-[15px] leading-[19.5px] mt-[24px] '>Let&#39;s chat</h1>
-          <h1 className='text-[20px] leading-[26px] mt-[20px] text-[#F5F5F5] hover:text-[#150DAD]'>Sam@airsoftstudios.com </h1>
+          <Link href='https://www.instagram.com/airsoft.studios/' className='mx-auto w-[65px]  '>
+                            <Image src={instagram} alt='instagram' className='w-[34px] h-[34px] mt-[10px] ml-[15.5px] ' />
+                            </Link>
         </section>
-<Link href='/payment' className='hidden lg:block'>
+<Link href='https://calendly.com/creativewizard03' className='hidden lg:block'>
 <button className='hidden lg:block text-[17.1px] leading-[22px] text-[#1B1C1E] rounded-[34.64px] border-[2.08px] border-[#1B1C1E] w-[149px] h-[57px] bg-[#f5f5f5] overflow-hidden relative group'>
-      <span className='relative z-10 hover:text-white'>Get Quote</span>
+      <span className='relative z-10 hover:text-white'>Book a Call</span>
       <div className='absolute inset-0 bg- transition-all duration-500 ease-in-out group-hover:animate-background-flow hover:text-white '></div>
       <style jsx>{`
         button {
