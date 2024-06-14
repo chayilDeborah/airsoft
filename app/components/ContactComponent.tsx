@@ -20,7 +20,7 @@ const ContactComponent =() => {
     useEffect(() => {
         const interval = setInterval(() => {
             setShowFirstImage((prev) => !prev);
-        }, 900);
+        }, 1000);
 
         return () => clearInterval(interval);
     }, []);
@@ -164,7 +164,7 @@ const ContactComponent =() => {
                         </div>
                       
                     </section>
-                    <form className='mt-[30px] lg:mt-[50px] lg:hidden block ' data-aos="fade-right">
+                    {/* <form className='mt-[30px] lg:mt-[50px] lg:hidden block ' data-aos="fade-right">
                         <label className='lg:text-[20px] text-[14.8px] leading-[19px] lg:leading-[26px] text-[#1B1C1E] '>Subscribe to our Fantasy World Newsletter</label>
                         <div className='mt-[14px] lg:mt-[20px] lg:w-[511px] h-[49px] lg:h-[66px] rounded-[30px] border-[1.49px] lg:border-[2.54px] border-black flex justify-between '>
                             <input className='text-[#1B1C1E] bg-[#F5F5F5] ml-[27px] my-[17px] lg:my-[23px] lg:text-[15px] text-[11.2px] leading-[14.5px] lg:leading-[19.5px] outline outline-none ' placeholder='Enter your email ' />
@@ -187,7 +187,7 @@ const ContactComponent =() => {
       `}</style>
                             </button>
                         </div>
-                    </form>
+                    </form> */}
                 </div>
             </section>
 

@@ -29,6 +29,7 @@ const images = [
   '/nyc.jpg',
   '/shield.jpg',
   '/cage.jpg',
+  '/chan.jpg',
   '/fatty.jpg',
   '/bigpurp.jpg',
   '/maku.jpg',
