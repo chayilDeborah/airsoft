@@ -14,17 +14,6 @@ import type { AppProps } from 'next/app';
 
 const ContactComponent =() => {
 
-    const [showFirstImage, setShowFirstImage] = useState(true);
-
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setShowFirstImage((prev) => !prev);
-        }, 1000);
-
-        return () => clearInterval(interval);
-    }, []);
-
     const [isTawkReady, setIsTawkReady] = useState(false);
 
     useEffect(() => {
@@ -56,19 +45,11 @@ const ContactComponent =() => {
     return (
         <main className='flex justify-center mt-[2px] mb-0px] pb-[50px] lg:pb-[150px] overflow-hidden ' id='contact' >
             <section className='lg:max-w-[1450px] w-[93%] lg:w-full mx-auto '>
-                <div className="relative ">
-                    <div className={`transition-transform duration-1000 ${showFirstImage ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0'} absolute mb-[100px]`}>
-                        <Image src={unlockdesk} alt='unlock' className='hidden lg:block w-[73%] mx-auto' />
-                        <Image src={unlockmob} alt='unlock' className='lg:hidden block w-[76%] mx-auto  ' />
-                    </div>
-                    <div className={`transition-transform duration-1000 ${showFirstImage ? 'translate-y-0 opacity-0' : '-translate-y-full opacity-100'} absolute mb-[100px]`}>
-                        <Image src={lockdesk} alt='unlock' className='hidden lg:block w-[76%] mx-auto' />
-                        <Image src={lockmob} alt='unlock' className='lg:hidden block w-[76%] mx-auto  ' />
-                    </div>
-                </div>
+            <Image src={unlockdesk} alt='unlock' className='hidden lg:block w-[76%] mx-auto ' />
+            <Image src={unlockmob} alt='unlock' className='lg:hidden block w-[94%] mx-auto ' />
                 {/* <h1 className='mx-auto lg:text-[70px] text-[21.78px] leading-[28.3px] lg:leading-[91px] text-[#1B1C1E] lg:w-[1125px]  '><i className='font-light'>Unlock</i> your design
                     <p>potential with our studio&#39;s expertise</p></h1> */}
-                <div className='lg:flex justify-between mt-[70px] lg:mt-[194px] w-[95%] lg:w-[80%] mx-auto '>
+                <div className='lg:flex justify-between mt-[30px] lg:mt-[61px] w-[95%] lg:w-[80%] mx-auto '>
                     <section>
                         <div className='bg-[#000000] text-[#FFFFFF] rounded-[22.3px] lg:rounded-[30px] lg:w-[511px] pl-[29px] lg:pl-[0px] py-[32px] lg:py-[70px] '>
                             <div className='w-[301px] lg:mx-auto'>

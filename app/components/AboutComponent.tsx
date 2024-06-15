@@ -7,23 +7,43 @@ import TestimonialCarousel from './AboutCarousel';
 
 const testimonials = [
     {
-      name: 'John M.',
-      position: 'Game Developer ',
+      name: 'John Martin',
+      position: 'Game Developer, London, United Kingdom ',
       testimonial: 'AirSoft Studios brought our game world to life in ways we couldnt have imagined. Their landscapes are stunning, and the character designs are incredibly detailed. Our players are constantly praising the visuals. Working with them was a dream!'
     },
     {
-      name: 'Lisa T.',
-      position: 'Author',
-      testimonial: 'I hired AirSoft Studios to create character designs for my novel series, and they exceeded all my expectations. The artists captured the essence of my characters perfectly, and their artwork added a magical touch to my book covers. Highly recommend them!'
+      name: 'Lisa Thompson',
+      position: 'Author, Oldham, United Kingdom',
+      testimonial: 'I hired AirSoft Studios to create character designs for my Fantasy novel series, and they exceeded all my expectations. The artists captured the essence of my characters perfectly, and their artwork added a magical touch to my book covers. Highly recommend!'
     },
     {
-      name: 'Samantha L.',
-      position: 'Writer',
+        name: '  David R ',
+        position: 'Animation Director, Louisiana, USA',
+        testimonial: 'We collaborated with AirSoft Studio for our latest Animation project.Their creativity and professionalism are top-notch'
+      },
+      {
+        name: ' Emily Knight ',
+        position: 'Board Game Designer, St Albans, United Kingdom',
+        testimonial: 'AirSoft Studios transformed our board game with their amazing fantasy art. Their attention to detail and ability to bring our idea to life was perfect'
+      },
+      {
+        name: ' Alex P.',
+        position: 'Indie Game Developer New York, USA ',
+        testimonial: 'AirSoft Studios totally nailed it with the concept landscapes and characters for our indie game. Their art is so vivid and imaginative, it made our game world feel truly immersive!'
+      },
+    //   {
+    //     name: ' Mia C. ',
+    //     position: 'Cosplayer',
+    //     testimonial: 'I commissioned Air Soft Studios for some art for my channel, and they delivered beyond my wildest dreams. The character designs are epic, and the backgrounds are just gorgeous. My followers are obsessed with the new visuals!'
+    //   },
+    {
+      name: 'Samantha Lee.',
+      position: 'Fantasy Writer',
       testimonial: 'I was blown away by the character designs AirSoft Studios created for my book series. They perfectly captured the personalities and vibes of my characters. The environments they crafted are just as magical. Big shoutout to the team!'
     },
     {
-      name: ' Mia C. ',
-      position: 'Cosplayer',
+      name: ' Jake H. ',
+      position: 'YouTuber Texas, USA',
       testimonial: 'I commissioned Air Soft Studios for some art for my channel, and they delivered beyond my wildest dreams. The character designs are epic, and the backgrounds are just gorgeous. My followers are obsessed with the new visuals!'
     },
   ];
