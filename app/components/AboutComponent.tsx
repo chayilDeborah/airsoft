@@ -8,13 +8,13 @@ import TestimonialCarousel from './AboutCarousel';
 const testimonials = [
     {
       name: 'John Martin',
-      position: 'Game Developer, London, United Kingdom ',
+      position: 'Game Developer, London, UK ',
       testimonial: 'AirSoft Studios brought our game world to life in ways we couldnt have imagined. Their landscapes are stunning, and the character designs are incredibly detailed. Our players are constantly praising the visuals. Working with them was a dream!'
     },
     {
-      name: 'Lisa Thompson',
-      position: 'Author, Oldham, United Kingdom',
-      testimonial: 'I hired AirSoft Studios to create character designs for my Fantasy novel series, and they exceeded all my expectations. The artists captured the essence of my characters perfectly, and their artwork added a magical touch to my book covers. Highly recommend!'
+      name: 'Samantha Lee.',
+      position: 'Fantasy Writer',
+      testimonial: 'I was blown away by the character designs AirSoft Studios created for my book series. They perfectly captured the personalities and vibes of my characters. The environments they crafted are just as magical. Big shoutout to the team!'
     },
     {
         name: '  David R ',
@@ -36,15 +36,16 @@ const testimonials = [
     //     position: 'Cosplayer',
     //     testimonial: 'I commissioned Air Soft Studios for some art for my channel, and they delivered beyond my wildest dreams. The character designs are epic, and the backgrounds are just gorgeous. My followers are obsessed with the new visuals!'
     //   },
-    {
-      name: 'Samantha Lee.',
-      position: 'Fantasy Writer',
-      testimonial: 'I was blown away by the character designs AirSoft Studios created for my book series. They perfectly captured the personalities and vibes of my characters. The environments they crafted are just as magical. Big shoutout to the team!'
-    },
+    
     {
       name: ' Jake H. ',
       position: 'YouTuber Texas, USA',
       testimonial: 'I commissioned Air Soft Studios for some art for my channel, and they delivered beyond my wildest dreams. The character designs are epic, and the backgrounds are just gorgeous. My followers are obsessed with the new visuals!'
+    },
+    {
+      name: 'Lisa Thompson',
+      position: 'Author, Oldham, UK',
+      testimonial: 'I hired AirSoft Studios to create character designs for my Fantasy novel series, and they exceeded all my expectations. The artists captured the essence of my characters perfectly, and their artwork added a magical touch to my book covers. Highly recommend!'
     },
   ];
   
@@ -53,18 +54,18 @@ const AboutComponent = () => {
     return (
         <main className='w-full relative mx-auto mb-[0px] text-black ' data-aos="fade-left">
             <section className=' w-full relative lg:mt-[0px] lg:h-auto'>
-                <div className='content video-container bg-[#000000] relative'>
-                    <video loop className="lg:w-full object-cover h-[560px] lg:h-[956px] " autoPlay muted>
+                <div className='content bg-[#000000] relative'>
+                    {/* <video loop className="lg:w-full object-cover h-[560px] lg:h-[956px] " autoPlay muted>
                         <source src="/samura.mp4" type="video/mp4" />
-                    </video>
-
+                    </video> */}
+                    <div className='image lg:w-full object-cover h-[615px] lg:h-[1050px]  '></div>
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
 
                     <section className='absolute lg:max-w-[1450px] mx-auto w-full mx-auto lg:w-full top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center'>
                         <div className='mx-auto text-white w-full '>
                             <div className='flex '>
-                                <div className='w-[95%] mx-auto lg:w-full '>
+                                <div className='w-[90%] mx-auto lg:w-full '>
                                 <div className='mt-[35px] lg:mt-[70px] lg:w-[80%] lg:mx-auto '>
                                     <div className='flex justify-between lg:h-[112px] mx-auto lg:mb-[104px] '>
                                         <h1 className=' text-[15px] lg:text-[28.7px] leading-[19.5px] lg:leading-[37px] my-auto font-medium ' data-aos="fade-up" data-duration="1400">Our Story</h1> 
@@ -78,8 +79,8 @@ const AboutComponent = () => {
                                         <h3 className='  mt-auto lg:w-[203px] hidden lg:block lg:text-[21px] ' data-aos="fade-up" data-duration="1500" >Leading Fantasy Concept Art Studio</h3>
                                         <div className='lg:w-[778px] lg:ml-[70px] '  data-aos="fade-up" data-duration="1600">
                                         <h3>Bring your imagination to life with AirSoft Studios. </h3>
-<h3>From dark fantasy realms, to steampunk worlds, we craft your visions into stunning visual masterpieces. Whether it’s epic adventures, urban magic, or mythic legends, we create custom art that captures your stories. </h3>
-Contact us today to start your journey.</div>
+                                        <h3>From dark fantasy realms, to steampunk worlds, we craft your visions into stunning visual masterpieces. Whether it’s epic adventures, urban magic, or mythic legends, we create custom art that captures your stories. </h3>
+                                         Contact us today to start your journey.</div>
                                         <Link href='/about'>
                                         <button data-aos="zoom-in" className='flex lg:hidden text-white w-[93px] mx-auto h-[30.4px] border-[0.89px] border-white rounded-[14.8px] pl-[19px] my-[35px] hover:bg-black hover:border-black '>
                                             <h1 className='text-[8.9px] leading-[11.6px] my-auto  ' >Read More</h1>
