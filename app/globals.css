@@ -35,11 +35,27 @@ body {
 }
 .image {
   /* background-color: #000000; */
-  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719331345/Rectangle_42_swzyyl.png);
+  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719340307/Rectangle_42_jjgwls.svg);
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
   color: #fff;
+}
+.image2 {
+  /* background-color: #000000; */
+  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719340875/Rectangle_57_isduz8.svg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: multiply;
+  /* color: #fff; */
+}
+.image3 {
+  /* background-color: #000000; */
+  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719450670/chair_tcgcsm.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-blend-mode: multiply; */
+  /* color: #fff; */
 }
 .content {
   display: grid;
