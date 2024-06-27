@@ -16,7 +16,7 @@ const Homepage = () => {
   return (
     <main className='overflow-hidden '>
       <main className='lg:max-w-[1450px] w-[93%] mx-auto lg:w-full overflow-hidden '>
-        <section className='w-full bg-[#FEFEFE] pt-[35px] lg:pt-[57px]  '>
+        <section className='w-full bg-[#FEFEFE] pt-[15px] lg:pt-[57px]  '>
           <Navbar />
           <div className=' w-full hidden lg:block relative  '>
             <div className=' relative'>
