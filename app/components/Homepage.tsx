@@ -38,7 +38,7 @@ const Homepage = () => {
           </div>
           <div className=' w-full block lg:hidden relative  '>
             <div className=' relative'>
-              <div className='image4 h-[395px] object-cover '></div>
+              <div className='image4 h-[450px] object-cover '></div>
               <section className='absolute lg:max-w-[1450px] mx-auto w-full mx-auto lg:w-[90%] top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center'>
               <div className='mx-auto text-black w-full flex justify-center'>
               <div className=' '>
