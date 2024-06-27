@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: #F5F5F5;
+  background: #FEFEFE;
 }
 .carousel-container {
   padding: 1rem;
@@ -51,7 +51,15 @@ body {
 }
 .image3 {
   /* background-color: #000000; */
-  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719450670/chair_tcgcsm.jpg);
+  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719471538/photo_6046256789974009114_y_zcrql1.jpg);
+  background-size: cover;
+  background-position: center;
+  /* background-blend-mode: multiply; */
+  /* color: #fff; */
+}
+.image4 {
+  /* background-color: #000000; */
+  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719481873/Safeimagekit-resized-img_3_ris9ee.png);
   background-size: cover;
   background-position: center;
   /* background-blend-mode: multiply; */
@@ -59,4 +67,8 @@ body {
 }
 .content {
   display: grid;
+}
+.explore {
+  background: linear-gradient(189.15deg, #140DB0 21%, rgba(0, 0, 0, 0.7) 53.72%);
+
 }

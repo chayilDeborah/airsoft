@@ -55,9 +55,6 @@ const AboutComponent = () => {
         <main className='w-full relative mx-auto mb-[0px] text-black ' data-aos="fade-left">
             <section className=' w-full relative lg:mt-[0px] lg:h-auto'>
                 <div className='content bg-[#000000] relative'>
-                    {/* <video loop className="lg:w-full object-cover h-[560px] lg:h-[956px] " autoPlay muted>
-                        <source src="/samura.mp4" type="video/mp4" />
-                    </video> */}
                     <div className='image lg:w-full object-cover h-[615px] lg:h-[1050px]  '></div>
                     {/* Overlay */}
                     <div className="absolute inset-0 bg-black opacity-50"></div>
