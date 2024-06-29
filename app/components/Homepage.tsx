@@ -24,7 +24,7 @@ const Homepage = () => {
               <section className='absolute lg:max-w-[1450px] mx-auto w-full mx-auto lg:w-[90%] top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center'>
                 <div className='mx-auto text-black w-full flex justify-between '>
                   <NavigationMenu />
-                  <div className='-mt-[100px] '>
+                  <div className='-mt-[75px] '>
                     <Image src={homelogo} alt='logo' className='w-[350px] h-[117px] mx-auto ' />
                     <h1 className='text-[35px] mt-[20px] leading-[45.5px] text-black font-semibold mb-[35px] '>Discover the world&#39;s best concept Art </h1>
                     <Link href='/portfolio'>
