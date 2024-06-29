@@ -3,7 +3,7 @@ import Navbar from './Navbar'
 import Image from 'next/image'
 import birds from '../assets/birds.png'
 import superwoman from '../assets/superwoman.png'
-import kingdom from '../assets/kingdom.svg'
+import homelogo from '../assets/homelogo.svg'
 import logo from '../assets/logo.png'
 import PortfolioComponent from './PortfolioComponent'
 import ContactComponent from './ContactComponent'
@@ -25,9 +25,11 @@ const Homepage = () => {
                 <div className='mx-auto text-black w-full flex justify-between '>
                   <NavigationMenu />
                   <div className='-mt-[100px] '>
-                    <Image src={logo} alt='logo' className='w-[350px] h-[117px] mx-auto ' />
-                    <h1 className='text-[40px] leading-[52px] text-black font-semibold mb-[35px] '>Discover the world&#39;s best concept Art </h1>
-                    <button className='explore hover:bg-[#140DB0] w-[299px] h-[99px] rounded-[50px] text-[30px] text-white leading-[39px] mx-auto  flex justify-center items-center '>Explore</button>
+                    <Image src={homelogo} alt='logo' className='w-[350px] h-[117px] mx-auto ' />
+                    <h1 className='text-[35px] mt-[20px] leading-[45.5px] text-black font-semibold mb-[35px] '>Discover the world&#39;s best concept Art </h1>
+                    <Link href='/portfolio'>
+                    <button className='explore hover:bg-[#140DB0] w-[200px] h-[66px] rounded-[50px] text-[20px] text-white leading-[26px] mx-auto  flex justify-center items-center '>Explore</button>
+                    </Link>
                   </div>
                   <div className=''>
                     <Image src={birds} alt='birds' className='' />
@@ -42,10 +44,11 @@ const Homepage = () => {
               <section className='absolute lg:max-w-[1450px] mx-auto w-full mx-auto lg:w-[90%] top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center'>
               <div className='mx-auto text-black w-full flex justify-center'>
               <div className=' '>
-                    <Image src={logo} alt='logo' className='w-[150px] h-[50px] mx-auto ' />
-                    <h1 className='text-[20px] leading-[26px] text-black text-center font-semibold mb-[6px] mt-[3px] '>Discover the world&#39;s best concept Art </h1>
-                    <button className='explore hover:bg-[#140DB0] w-[125px] h-[41px] rounded-[20.9px] text-[12.6px] text-white leading-[16.3px] mx-auto  flex justify-center items-center '>Explore</button>
-                  </div>
+                    <Image src={homelogo} alt='logo' className='w-[150px] h-[50px] mx-auto ' />
+                    <h1 className='text-[30px] leading-[39px] text-black text-center font-semibold mb-[10px] mt-[3px] '>Discover the world&#39;s best concept Art </h1>
+                    <Link href='/portfolio'>
+                    <button className='explore hover:bg-[#140DB0] w-[100px] h-[33px] rounded-[20.9px] text-[10px] text-white leading-[13px] mx-auto  flex justify-center items-center '>Explore</button>
+                    </Link>                  </div>
 
               </div>
               </section>

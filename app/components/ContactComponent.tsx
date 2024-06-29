@@ -50,8 +50,8 @@ const ContactComponent =() => {
                 {/* <h1 className='mx-auto lg:text-[70px] text-[21.78px] leading-[28.3px] lg:leading-[91px] text-[#1B1C1E] lg:w-[1125px]  '><i className='font-light'>Unlock</i> your design
                     <p>potential with our studio&#39;s expertise</p></h1> */}
                 <div className='lg:flex justify-between mt-[30px] lg:mt-[61px] w-[95%] lg:w-[80%] mx-auto '>
-                    <section>
-                        <div className='bg-[#000000] text-[#FFFFFF] rounded-[22.3px] lg:rounded-[30px] lg:w-[511px] pl-[29px] lg:pl-[0px] py-[32px] lg:py-[70px] '>
+                    <section className='lg:my-auto'>
+                        <div className='bg-[#000000] lg:mb-[0px] mb-[50px] text-[#FFFFFF] rounded-[22.3px] lg:rounded-[30px] lg:w-[511px] pl-[29px] lg:pl-[0px] py-[32px] lg:py-[70px] '>
                             <div className='w-[301px] lg:mx-auto'>
                                 <h3 className=' text-[18.6px] leading-[24.15px] w-fit font-medium ' data-aos="fade-left">Let&#39;s get started.</h3>
                                 <p className='text-[14.8px] leading-[19.32px] font-light mt-[15px] font-italics w-[290px] lg:w-full '><i>We want to hear from you to get an awesome fantasy concept art project started!</i></p>
@@ -102,7 +102,7 @@ const ContactComponent =() => {
                                     </button>
                             </div>
                         </form> */}
-                          <div className='flex mt-[29px] w-fit mx-auto lg:mx-[0px] mb-[30px] lg:mb-[0px] ' data-aos="fade-up">
+                          {/* <div className='flex mt-[29px] w-fit mx-auto lg:mx-[0px] mb-[30px] lg:mb-[0px] ' data-aos="fade-up">
                             <h1 className='text-[20px] leading-[26px] text-[#1B1C1E] mr-[20px] '>Message us on</h1>
                             <div className='flex lg:w-[142px] justify-between '>
                                 <Link href='https://www.instagram.com/airsoft.studios/'>
@@ -110,7 +110,7 @@ const ContactComponent =() => {
                                 </Link>
 
                             </div>
-                        </div>
+                        </div> */}
                     </section>
                     <section className='flex flex-col-reverse lg:flex-col '>
                         <div className='lg:w-[410px] h-[370px] lg:h-[400px] border-[#1B1C1E] border-[2px] rounded-[30px] text-[#1B1C1E] pb-[94px] ' data-aos="fade-in">
