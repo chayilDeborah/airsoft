@@ -62,7 +62,7 @@ const TestimonialCarousel: React.FC<CarouselProps> = ({ testimonials }) => {
       </div>
       <div className="flex lg:ml-[124px] w-full gap-[15px] lg:gap-[50px] text-white  ">
       {testimonials.slice(currentIndex, currentIndex + itemsPerPage).map((testimonial, index) => (
-          <div key={index} className="border-[0.9px] lg:border-[2.88px] border-white lg:h-[304px] lg:rounded-[30px] py-[17px] lg:pt-[40px] px-[13px] lg:px-[44px] w-[196px] h-[203px] rounded-[15.2px] lg:w-[577px]">
+          <div key={index} className="border-[0.9px] lg:border-[2.88px] border-white lg:h-[304px] lg:rounded-[30px] py-[17px] lg:pt-[40px] px-[13px] lg:px-[44px] w-[196px] h-[216px] rounded-[15.2px] lg:w-[577px]">
             <div className="flex items-center">
               <div className="ml-[9px]">
                 <h3 className="text-[12px] leading-[15px] lg:text-[24px] lg:leading-[31.17px] font-medium  ">{testimonial.name}</h3>
