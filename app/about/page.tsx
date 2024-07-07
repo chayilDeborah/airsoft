@@ -17,7 +17,7 @@ const About = () => {
     if (count < 45) {
       timeout = setTimeout(() => {
         setCount((prevCount) => prevCount + 1);
-      }, 80); // Adjust the timeout duration as needed
+      }, 150); // Adjust the timeout duration as needed
     }
 
     return () => clearTimeout(timeout);

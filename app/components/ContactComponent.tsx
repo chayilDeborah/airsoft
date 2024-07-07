@@ -47,8 +47,6 @@ const ContactComponent =() => {
             <section className='lg:max-w-[1450px] w-[93%] lg:w-full mx-auto '>
             <Image src={unlockdesk} alt='unlock' className='hidden lg:block w-[76%] mx-auto ' />
             <Image src={unlockmob} alt='unlock' className='lg:hidden block w-[94%] mx-auto ' />
-                {/* <h1 className='mx-auto lg:text-[70px] text-[21.78px] leading-[28.3px] lg:leading-[91px] text-[#1B1C1E] lg:w-[1125px]  '><i className='font-light'>Unlock</i> your design
-                    <p>potential with our studio&#39;s expertise</p></h1> */}
                 <div className='lg:flex justify-between mt-[30px] lg:mt-[61px] w-[95%] lg:w-[80%] mx-auto '>
                     <section className=''>
                         <div className='bg-[#000000] lg:mb-[0px] mb-[50px] text-[#FFFFFF] rounded-[22.3px] lg:rounded-[30px] lg:w-[511px] pl-[29px] lg:pl-[0px] py-[32px] lg:py-[70px] '>
@@ -76,32 +74,7 @@ const ContactComponent =() => {
                                 </button>
                             </div>
                         </div>
-                        {/* <form className='mt-[50px] hidden lg:block ' data-aos="fade-right">
-                            <label className='lg:text-[20px] text-[] leading-[] lg:leading-[26px] text-[#1B1C1E] '>Subscribe to our Fantasy World Newsletter</label>
-                            <div className='mt-[20px] w-[511px] h-[66px] rounded-[30px] border-[2.54px] border-black flex justify-between '>
-                                <input className='text-[#1B1C1E] bg-[#F5F5F5] ml-[27px] my-[23px] lg:text-[15px] text-[] leading-[] lg:leading-[19.5px] outline outline-none ' placeholder='Enter your email ' />
-
-                                <button className='bg-black rounded-r-[30px] w-[143px] h-[63px] text-white border-[1px] border-black lg:text-[15px] text-[] leading-[] lg:leading-[19.5px] -mr-[2px] overflow-hidden relative group'>
-                                    
-                                    <span className='relative z-10 hover:text-black'>Subscribe</span>
-                                    <div className='absolute inset-0 bg- transition-all duration-500 ease-in-out group-hover:animate-background-flow hover:text-black '></div>
-                                    <style jsx>{`
-        button {
-          background: linear-gradient(0deg, #ffffff, #ffffff),
-                      linear-gradient(black, black);
-          background-size: 100% 0, 100% 100%;
-          background-repeat: no-repeat;
-          transition: background-size 0.5s;
-        }
-
-        button:hover {
-          background-size: 100% 100%, 100% 100%;
-          color: black
-        }
-      `}</style>
-                                    </button>
-                            </div>
-                        </form> */}
+                    
                           <div className='flex mt-[29px] w-fit mx-auto lg:mx-[0px] mb-[30px] lg:mb-[0px] ' data-aos="fade-up">
                             <h1 className='text-[20px] leading-[26px] text-[#1B1C1E] mr-[20px] '>Message us on</h1>
                             <div className='flex lg:w-[142px] justify-between '>
@@ -145,30 +118,7 @@ const ContactComponent =() => {
                         </div>
                       
                     </section>
-                    {/* <form className='mt-[30px] lg:mt-[50px] lg:hidden block ' data-aos="fade-right">
-                        <label className='lg:text-[20px] text-[14.8px] leading-[19px] lg:leading-[26px] text-[#1B1C1E] '>Subscribe to our Fantasy World Newsletter</label>
-                        <div className='mt-[14px] lg:mt-[20px] lg:w-[511px] h-[49px] lg:h-[66px] rounded-[30px] border-[1.49px] lg:border-[2.54px] border-black flex justify-between '>
-                            <input className='text-[#1B1C1E] bg-[#F5F5F5] ml-[27px] my-[17px] lg:my-[23px] lg:text-[15px] text-[11.2px] leading-[14.5px] lg:leading-[19.5px] outline outline-none ' placeholder='Enter your email ' />
-                            <button className='bg-black rounded-r-[30px] w-[106px] lg:w-[143px] h-[47px] lg:h-[63px] text-white border-[0.74px] lg:border-[1px] border-black lg:text-[15px] text-[] leading-[] lg:leading-[19.5px] -mr-[2px]  overflow-hidden relative group'>
-                                <span className='relative z-10 hover:text-black'>Subscribe</span>
-                                <div className='absolute inset-0 bg- transition-all duration-500 ease-in-out group-hover:animate-background-flow hover:text-black '></div>
-                                <style jsx>{`
-        button {
-          background: linear-gradient(0deg, #ffffff, #ffffff),
-                      linear-gradient(black, black);
-          background-size: 100% 0, 100% 100%;
-          background-repeat: no-repeat;
-          transition: background-size 0.5s;
-        }
-
-        button:hover {
-          background-size: 100% 100%, 100% 100%;
-          color: black
-        }
-      `}</style>
-                            </button>
-                        </div>
-                    </form> */}
+              
                 </div>
             </section>
 

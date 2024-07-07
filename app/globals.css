@@ -31,10 +31,8 @@ body {
 .close {
   position: fixed;
   z-index: 1000;
-  /* padding-right: 40px; */
 }
 .image {
-  /* background-color: #000000; */
   background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719340307/Rectangle_42_jjgwls.svg);
   background-size: cover;
   background-position: center;
@@ -42,28 +40,20 @@ body {
   color: #fff;
 }
 .image2 {
-  /* background-color: #000000; */
   background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719340875/Rectangle_57_isduz8.svg);
   background-size: cover;
   background-position: center;
   background-blend-mode: multiply;
-  /* color: #fff; */
 }
 .image3 {
-  /* background-color: #000000; */
-  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719676887/homechair_spessy.svg);
+  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1720356453/homechair_spessy_3_qxr2ye.png);
   background-size: cover;
   background-position: center;
-  /* background-blend-mode: multiply; */
-  /* color: #fff; */
 }
 .image4 {
-  /* background-color: #000000; */
-  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1719871791/1_1_4_w40cry.svg);
+  background-image: url(https://res.cloudinary.com/dmye53wps/image/upload/v1720356840/1_1_4_w40cry_jbdxkz.png);
   background-size: cover;
   background-position: center;
-  /* background-blend-mode: multiply; */
-  /* color: #fff; */
 }
 .content {
   display: grid;
