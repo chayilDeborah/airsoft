@@ -54,7 +54,7 @@ const ContactComponent =() => {
                                 <h3 className=' text-[18.6px] leading-[24.15px] w-fit font-medium ' data-aos="fade-left">Let&#39;s get started.</h3>
                                 <p className='text-[14.8px] leading-[19.32px] font-light mt-[15px] font-italics w-[290px] lg:w-full '><i>We want to hear from you to get an awesome fantasy concept art project started!</i></p>
                              
-                                <button onClick={handleChatButtonClick}  disabled={!isTawkReady} className='mt-[29.7px] border-[1.54px] border-[#F5F5F5] rounded-[25.74px] w-[132.7px] h-[52px] lg:text-[15.4px] text-[] leading-[] lg:leading-[20px] lg:text-[#F5F5F5]  overflow-hidden relative group '>
+                                <button onClick={handleChatButtonClick}  className='mt-[29.7px] border-[1.54px] border-[#F5F5F5] rounded-[25.74px] w-[132.7px] h-[52px] lg:text-[15.4px] text-[] leading-[] lg:leading-[20px] lg:text-[#F5F5F5]  overflow-hidden relative group '>
                                     <span className='relative z-10 hover:text-black'>Let&#39;s Chat</span>
                                     <div className='absolute inset-0 bg- transition-all duration-500 ease-in-out group-hover:animate-background-flow hover:text-black '></div>
                                     <style jsx>{`
